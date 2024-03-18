@@ -33,15 +33,15 @@ public class MovieRepository {
             // your code here
 
             if (directorMovieMapping.containsKey(director)) {
-                //directorMovieMapping.get(director).add(movie);
                 List<String> list= directorMovieMapping.get(director);
                 list.add(movie);
                 directorMovieMapping.put(director,list);
             }
             else{
                 List<String> list= new ArrayList<>();
-                directorMovieMapping.put(director,list);
                 list.add(movie);
+                directorMovieMapping.put(director,list);
+
             }
 
 

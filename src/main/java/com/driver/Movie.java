@@ -1,5 +1,8 @@
 package com.driver;
 
+import org.springframework.boot.autoconfigure.domain.EntityScan;
+
+
 public class Movie {
 
     private String name;
