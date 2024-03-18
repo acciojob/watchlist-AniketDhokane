@@ -90,7 +90,7 @@ public class MovieRepository {
         // your code here
         List<String> list=findAllMovies();
         for (String s : list){
-            movieMap.remove(s);
+            movieMap.clear();
         }
         directorMap.clear();
 
